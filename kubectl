@@ -1,0 +1,66 @@
+  1  sudo apt update
+    2  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    3  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    4  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+    5  sudo apt update
+    6  sudo apt install docker-ce
+    7  sudo docker run hello-world
+    8  sudo usermod -aG docker $USER
+    9  dokcer --version 
+   10  docker version 
+   11  docker ps 
+   12  docker ps -a
+   13  minikube start
+   14  sudo apt update
+   15  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   16  sudo chmod +x minikube-linux-amd64
+   17  sudo mv minikube-linux-amd64 /usr/local/bin/minikube
+   18  minikube start
+   19  minikube status
+   20  sudo apt update
+   21  sudo apt install virtualbox
+   22  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   23  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+   24  sudo apt update
+   25  sudo apt install -y kubectl
+   26  sudo apt update
+   27  sudo apt install -y kubectl
+   28  minikube start
+   29  minikube status
+   30  /usr/local/bin/minikube start --force --driver+none:
+   31  /usr/local/bin/minikube start --force --driver=none:
+   32  minikube start
+   33  minikube start driver=none
+   34  docker start
+   35  clear
+   36  minikube start
+   37  ln -s /usr/local/bin/minikube minukube
+   38  /usr/local/bin/minikube start --force --driver=docker 
+   39  minikube status
+   40  kubectl pods
+   41  sudo kubectl pod
+   42  kubectl pod
+   43  snap install kubectl 
+   44  sudo snap install kubectl --classic
+   45  kubectl pod
+   46  kubectl pods
+   47  kubectl get pods
+   48  kubectl get services
+   49  kubectl get nodes
+   50  kubectl describe pod <pod_name>
+   51  cleae
+   52  clear
+   53  kubectl get nodes
+   54  vi pod.yml
+   55  kubectl create -f pod.yml
+   56  kubectl get pods
+   57  kubectl get pode -o wide
+   58  kubectl get pode -0 wide
+   59  kubectl get pods -o wide
+   60  curl 10.244.0.3
+   61  minikube ssh
+   62  kubectl get pods -o wide
+   63  minikube ssh
+   64  clear
+   65  history
+root@ip-172-31-11-242:/home/ubuntu# 
